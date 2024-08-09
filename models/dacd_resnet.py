@@ -54,7 +54,7 @@ class Cacd_Bottleneck(nn.Module):
             self.downsample_flops = inplanes * planes * self.expansion
 
         self.output_size = output_size
-        self.mask_spatial_granularity = mask_spatial_granularity  # 图片是方形的所以可以用这种简单的除法算掩码的大小
+        self.mask_spatial_granularity = mask_spatial_granularity  
         self.mask_size = torch.tensor([self.output_size[0] // self.mask_spatial_granularity[0], self.output_size[1] // self.mask_spatial_granularity[1]])
 
         self.masker_spatial = None
