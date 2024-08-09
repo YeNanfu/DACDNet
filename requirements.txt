@@ -1,0 +1,5 @@
+Pillow
+scikit-learn
+tqdm
+torchinfo
+numpy
