@@ -119,7 +119,7 @@ class ResNet(nn.Module):
                             self.base_width, previous_dilation, norm_layer))
         print('layers1: ', layers)
         self.inplanes = planes * block.expansion
-        for _ in range(1, blocks):  # 我们这里blocks[i]=1,所以这个循环不会执行
+        for _ in range(1, blocks):  
             layers.append(block(self.inplanes, planes, groups=self.groups,
                                 base_width=self.base_width, dilation=self.dilation,
                                 norm_layer=norm_layer))
