@@ -28,6 +28,9 @@ Please contact me via email (yenanfu@qq.com) if you have any questions regarding
 
 ### File Description
 models.resnet is the baseline network；
+
 models.dacd_resnet is the proposed DACDNet；
+
 models.utils_dacd is the necessary components of the DACDNet；
+
 all python files in utils is the components for training such as loss function, optimizer and etc.
