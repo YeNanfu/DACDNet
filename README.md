@@ -24,7 +24,6 @@ Environment:
 ```
 
 
-Please contact me via email (yenanfu@qq.com) if you have any questions regarding this project.
 
 ### File Description
 models.resnet is the baseline network；
